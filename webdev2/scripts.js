@@ -12,6 +12,7 @@ function ggDeler(a, b) {
     let dd = Math.min(a, b)
     let r = d%dd
     let i = 0
+    }
     
     while(r > 0) {
     r = d%dd
