@@ -318,7 +318,7 @@ h3 { font-size: var(--fs-h3)}
 
 .my-services {
     background-color: lightgray;
-    background: url(../portfolio\ my\ services.jpg);
+    background: url("../IMG/portfolio\ my\ services.jpg");
     background-size: cover;
     background-blend-mode: multiply;
 
