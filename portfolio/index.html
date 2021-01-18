@@ -1,51 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mijn Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Smart Industry</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav nav" role="tablist">
-                <a class="nav-item nav-link" data-toggle="tab" href="#start" id="start-tab" role="tab" aria-controls="start" aria-selected="true"><i class="fa fa-fw fa-home"></i>Start <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" data-toggle="tab" href="#business" id="business-tab" role="tab" aria-controls="business" aria-selected="true"><i class="fa fa-handshake-o"></i> Business</a>
-                <a class="nav-item nav-link" data-toggle="tab" href="#connection" id="connection-tab" role="tab" aria-controls="connection" aria-selected="true"><i class="fa fa-code"></i> Connection</a>
-                <a class="nav-item nav-link" data-toggle="tab" href="#technology" id="technology-tab" role="tab" aria-controls="technology" aria-selected="true"><i class="fa fa-cog"></i> Technology</a>
-                <a class="nav-item nav-link" data-toggle="tab" href="#project" id="project-tab" role="tab" aria-controls="project" aria-selected="true"><i class="fa fa-rocket"></i> Project</a>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>Portfolio Marieke</title>
+        <link rel="stylesheet.css">
+        <script src="https://kit.fontawesome.com/a93c3e98d1.js" crossorigin="anonymous"></script>
+<!--update with own fonts-->
+<link href="http://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/stylesheet.css">
+
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                <img src="IMG/Logo.jpeg" alt=""></a>
             </div>
-        </div>
-    </nav>
-    <div class="tab-content container">
-        <div class="tab-pane active fade show" id="start" role="tabpanel" aria-labelledby="start-tab">
-            <p>I'm in Start</p>
-        </div>
-        <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="business-tab">
-            <p>I'm in Business</p>
-        </div>
-        <div class="tab-pane fade" id="connection" role="tabpanel" aria-labelledby="connection-tab">
-            <p>I'm in Connection</p>
-        </div>
-        <div class="tab-pane fade" id="technology" role="tabpanel" aria-labelledby="technology-tab">
-            <p>I'm in Technology</p>
-        </div>
-        <div class="tab-pane fade" id="project" role="tabpanel" aria-labelledby="project-tab">
-            <p>I'm in Project</p>
-        </div>
-    </div>
 
-    <!-- FOR BOOTSTRAP -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__link"><a href="index.html">Home</a></li>
+                    <li class="nav__link"><a href="portfolio item1.html">Smart Start</a></li>
+                    <li class="nav__link"><a href="portfolio item2.html">Smart Connection</a></li>
+                    <li class="nav__link"><a href="portfolio item3.html">Smart Technology</a></li>
+                    <li class="nav__link"><a href="portfolio item4.html">Smart Business</a></li>
+                    <li class="nav__link"><a href="portfolio item5.html">Smart Project</a></li>
+                    <li class="nav__link"><a href="portfolio item6.html">Over mij</a></li>
+                    <li class="nav__link"><a href="portfolio item7.html">Extra</a></li>
+                </ul>
+            </nav>
 
-</body>
+        </header>
+        <!--Introductie-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <reg>Hi! Mijn naam is </reg> <br><strong>Marieke Pas</strong></br></h1>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Student Smart industries</p>
+            <img src="IMG/Foto 16-01-2021 om 15.18.jpeg" alt="" class="intro__img"> 
+        </section>
+
+        <!--Hoofdstuk1-->
+
+        <section class="my-services" id="My services"> 
+            <h2 class="section__title section__title--services">Wat ik doe</h2>
+           <div class="services">
+            <div class="service">
+                <p><strong>SMART START</strong><br><br>Een introductie in Smart Industry. Bij Smart Start zijn verschillende vaardigheden aangeleerd om "Smart Industry"-kansen en uitdagingen bij ondernemingen te herkennen en deze uit te werken tot een business case. </p>
+            </div> <!--close-->
+
+            <div class="service">
+                
+                <p><strong>SMART CONNECTION</strong><br><br>In dit onderdeel zijn concrete programeervaardigheden aangeleerd, zoals HTML/CSS, een introductie tot JavaScript en SQL/No-SQL, API's en Machine Learning. Hierdoor konden we onze website bouwen.</p>
+            </div> <!--close-->
+
+            <div class="service">
+                <p><strong>SMART TECHNOLOGY</strong><br><br>Hierbij stond het bouwen van een IoT-systeem centraal. We hebben een zelffunctionerend plantensysteem gebouwd die zichzelf water kan geven en aangeeft als de potgrond te droog is.</p>
+            </div> <!--close-->
+
+            <div class="service">
+                <p><strong>SMART BUSINESS</strong><br><br>Het onderdeel waar technologie en business samen kwamen. Dit gebeurde door verschillende workshops en opdrachten rondom bijvoorbeeld BMC, Design Thinking en het brein.</p>
+            </div> <!--close-->
+
+            <div class="service">
+                <p><strong>SMART PROJECT</strong><br><br>Ongever 3 maanden hebben we gewerkt aan ons eigen 'slimme' project. In mijn geval ging het over Datacompressie bij de Koninklijke Landmacht.</p>
+            </div> <!--close-->
+
+        </div>
+        <a href="portfolio item1.html" class="btn">Let's Start!</a>
+        </section>
+
+        <!--About me-->
+
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Wie ben ik?</h2>
+            <p class="section__subtitle section__subtitle--about">Student bedrijfskunde<br>Minor Smart Industries</p>
+
+
+            <div class="about-me__body">
+                <p>Hi! Mijn naam is Marieke en ik studeer Bedrijfskunde aan de Hogeschool van Arnhem en Nijmegen. Ik heb gekozen voor deze minor omdat ik altijd geïntereseerd ben geweest in technologie en de werking daarvan, maar ik nu pas de ballen had om daar bewust een keuze voor te maken. Wil je meer weten over mij? Lees snel meer!</p>
+                <p></p>
+                <button myFunction="click" class="btn"><a href="portfolio item6.html">Lees meer</a></button>
+
+            </div>
+
+            <img src="IMG/Foto 16-01-2021 om 15.22.jpeg" alt="test" class="about-me__img">
+        </section>
+
+        <!--my work-->
+
+        <section class="my-work" id="Work">
+            <h2 class="section--title section__title--work">Mijn werk</h2>
+            <p class="section__subtitle section__subtitle--work">Een aantal uitgelichte items</p>
+            <div class="portfolio">
+                <!--Portfolio item 01-->
+                <a href="Smartstart5.html" class="portfolio__item">
+                    <img src="IMG/Smart Start5.png" alt="test" class="portfolio__img">
+                </a>
+                 <!--Portfolio item 02-->
+                 <a href="SmartConnection2.html" class="portfolio__item">
+                    <img src="IMG/Open weather app.jpg" alt="test" class="portfolio__img">
+                </a>
+                 <!--Portfolio item 03-->
+                 <a href="Smartstart1.html" class="portfolio__item">
+                    <img src="IMG/Smart Start1.png" alt="test" class="portfolio__img">
+                </a>
+                 <!--Portfolio item 04-->
+                 <a href="portfolio item3.html" class="portfolio__item">
+                    <img src="IMG/IoT plantensysteem ST.jpeg" alt="test" class="portfolio__img">
+                </a>
+                 <!--Portfolio item 05-->
+                 <a href="SmartConnection3.html" class="portfolio__item">
+                    <img src="IMG/corona.jpg" alt="test" class="portfolio__img">
+                </a>
+                 <!--Portfolio item 06-->
+                 <a href="portfolio item5.html" class="portfolio__item">
+                    <img src="IMG/verbindingsdienst.jpg" alt="test" class="portfolio__img">
+                </a>
+                 <!--Portfolio item 07-->
+                 <a href="Smart Business2.html" class="portfolio__item">
+                    <img src="IMG/BMC gallerij.jpg" alt="test" class="portfolio__img">
+                </a>
+                <!--Portfolio item 08-->
+                <a href="smart business3.html" class="portfolio__item">
+                    <img src="IMG/brain.jpg" alt="test" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer">
+            <a href="mailto:mgt.pas@student.han.nl" class="footer-link">mgt.pas@student.han.nl</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com">
+                    <i class="fab fa-linkedin-in"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com"><i class="fab fa-github"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://youtube.com"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </footer>
+
+        <script src="Javascript/index.js"></script>
+    </body>
+
+    <!-- 1:14:00 https://www.youtube.com/watch?v=_xkSvufmjEs-->
 </html>
